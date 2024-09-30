@@ -30,7 +30,8 @@
   I am currently using solarized osaka theme by <a href="https://github.com/craftzdog/solarized-osaka.nvim">craftzdog</a> as it looks very cozy and vibrant.
 </samp>
 
-'''lua  
+
+```lua
   {
     "craftzdog/solarized-osaka.nvim",
     lazy = true,
@@ -41,9 +42,9 @@
       }
     end,
   }
-'''
+```
 
-![theme](assests/Work.jpg) 
+<img src="assets/Work.jpg">
 
 
 
