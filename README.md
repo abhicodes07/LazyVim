@@ -11,13 +11,13 @@
     
 | Plugins                  | Description                                                                               | Links |
 |--------------------------|-------------------------------------------------------------------------------------------|-------|
-| **Mason**                | A package manager for installing LSP servers, DAP servers, linters, and formatters.       | [🔗](https://github.com/williamboman/mason.nvim) |
-| **flash**                | Enhances motion in the editor, enabling more intuitive text navigation.                   | [🔗](https://github.com/folke/flash.nvim) |
-| **lualine**              | A fast and customizable status line plugin for Neovim.                                    | [🔗](https://github.com/nvim-lualine/lualine.nvim) |
-| **noice**                | A highly configurable UI for command messages, popups, and notifications.                 | [🔗](https://github.com/folke/noice.nvim) |
-| **treesitter**           | Syntax highlighting and parsing based on Tree-sitter for better performance and accuracy. | [🔗](https://github.com/nvim-treesitter/nvim-treesitter) |
-| **notify**               | A stylish notification manager for Neovim.                                                | [🔗](https://github.com/rcarriga/nvim-notify) |
-| **which-key**            | Displays available keybindings in a popup for easier discovery.                           | [🔗](https://github.com/folke/which-key.nvim) |
-| **trouble**              | A pretty list to help you manage and navigate diagnostics, references, etc.               | [🔗](https://github.com/folke/trouble.nvim) |
-| **ts-comments**          | A Neovim plugin for better comment handling using Tree-sitter.                            | [🔗](https://github.com/JoosepAlviste/nvim-ts-context-commentstring) |
+| **Mason**                | <samp> A package manager for installing LSP servers, DAP servers, linters, and formatters. </samp>       | [🔗](https://github.com/williamboman/mason.nvim) |
+| **flash**                | <samp> Enhances motion in the editor, enabling more intuitive text navigation. </samp>                  | [🔗](https://github.com/folke/flash.nvim) |
+| **lualine**              | <samp> A fast and customizable status line plugin for Neovim. </samp>                                   | [🔗](https://github.com/nvim-lualine/lualine.nvim) |
+| **noice**                | <samp> A highly configurable UI for command messages, popups, and notifications. </samp>                 | [🔗](https://github.com/folke/noice.nvim) |
+| **treesitter**           | <samp> Syntax highlighting and parsing based on Tree-sitter for better performance and accuracy. </samp> | [🔗](https://github.com/nvim-treesitter/nvim-treesitter) |
+| **notify**               | <samp> A stylish notification manager for Neovim. </samp>                                               | [🔗](https://github.com/rcarriga/nvim-notify) |
+| **which-key**            | <samp> Displays available keybindings in a popup for easier discovery. </samp>                           | [🔗](https://github.com/folke/which-key.nvim) |
+| **trouble**              | <samp> A pretty list to help you manage and navigate diagnostics, references, etc. </samp>               | [🔗](https://github.com/folke/trouble.nvim) |
+| **ts-comments**          | <samp> A Neovim plugin for better comment handling using Tree-sitter. </samp>                           | [🔗](https://github.com/JoosepAlviste/nvim-ts-context-commentstring) |
 
