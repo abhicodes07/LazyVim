@@ -44,7 +44,7 @@
   }
 ```
 
-<img src="assets/Work.jpg">
+<img src="assets/config.jpg">
 
 
 
