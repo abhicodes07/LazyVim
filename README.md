@@ -2,12 +2,15 @@
 <samp>
   This is my custom template for <a href="https://github.com/LazyVim/LazyVim">LazyVim.</a>
    Refer to the <a href="https://lazyvim.github.io/installation">documentation</a> to get started.
+  My configuration is based on <a href="https://youtu.be/fFHlfbKVi30?si=nmaGGZij-V3OP8OQ">devaslife</a>'s video with some of my own settings and plugins.
+  <br>
+  Feel free to add and change things according to your preferences. 
 </samp>
 
 ## Dashboard
 <img src = "assets/DashBoard.jpg">
 
-## Plugins, Themes and LSP
+## plugins
     
 | Plugins                  | Description                                                                               | Links |
 |--------------------------|-------------------------------------------------------------------------------------------|-------|
@@ -20,4 +23,30 @@
 | **which-key**            | <samp> Displays available keybindings in a popup for easier discovery. </samp>                           | [🔗](https://github.com/folke/which-key.nvim) |
 | **trouble**              | <samp> A pretty list to help you manage and navigate diagnostics, references, etc. </samp>               | [🔗](https://github.com/folke/trouble.nvim) |
 | **ts-comments**          | <samp> A Neovim plugin for better comment handling using Tree-sitter. </samp>                           | [🔗](https://github.com/JoosepAlviste/nvim-ts-context-commentstring) |
+
+## Theme
+
+<samp>
+  I am currently using solarized osaka theme by <a href="https://github.com/craftzdog/solarized-osaka.nvim">craftzdog</a> as it looks very cozy and vibrant.
+</samp>
+
+'''lua  
+  {
+    "craftzdog/solarized-osaka.nvim",
+    lazy = true,
+    priority = 1000,
+    opts = function()
+      return {
+        transparent = true,
+      }
+    end,
+  }
+'''
+
+![theme](assests/Work.jpg) 
+
+
+
+
+
 
