@@ -4,13 +4,30 @@
    Refer to the <a href="https://lazyvim.github.io/installation">documentation</a> to get started.
   My configuration is based on <a href="https://youtu.be/fFHlfbKVi30?si=nmaGGZij-V3OP8OQ">devaslife</a>'s video with some of my own settings and plugins.
   <br>
-  Feel free to add and change things according to your preferences. 
+  Feel free to add and change things according to your preferences.
 </samp>
 
 ## Dashboard
+<samp> I am using custom dashboard for the LazyVim from nvimdev. Replace the commented line with your own custom logo.</samp>
+
+```lua
+  {
+    "nvimdev/dashboard-nvim",
+    event = "VimEnter",
+    opts = function(_, opts)
+      local logo = [[ 
+              -- Your cutom logo 
+      ]]
+      logo = string.rep("\n", 8) .. logo .. "\n\n"
+      opts.config.header = vim.split(logo, "\n")
+    end,
+  },
+```
+
+
 <img src = "assets/DashBoard.jpg">
 
-## plugins
+## Plugins
     
 | Plugins                  | Description                                                                               | Links |
 |--------------------------|-------------------------------------------------------------------------------------------|-------|
@@ -28,6 +45,7 @@
 
 <samp>
   I am currently using solarized osaka theme by <a href="https://github.com/craftzdog/solarized-osaka.nvim">craftzdog</a> as it looks very cozy and vibrant.
+  <br>
 </samp>
 
 
@@ -46,6 +64,8 @@
 
 <img src="assets/config.jpg">
 
+## Multiple configs
+<samp>If you want to use mulitple configs of Neovim and Vim such as AstroVim, LunarVim, NvChad and ofcourse LazyVim then follow the below steps. </samp>
 
 
 
