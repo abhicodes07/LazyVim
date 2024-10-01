@@ -67,10 +67,11 @@
 ## Multiple configs
 <samp>If you want to use mulitple configs of Neovim and Vim such as AstroVim, LunarVim, NvChad and ofcourse LazyVim then follow the below steps. </samp>
 
-> **A note about cloning other configs**: <samp> Clone the repository of the config you are going to use the most in the default directory of Neovim `~/.config/nvim` and clone the other repository's of different configs into their respective directories with thier names similar to thier configs.</samp>
+> **A note about cloning other configs**: <samp> Clone the repository of the config you are going to use the most in the default directory of Neovim `~/.config/nvim` and clone the other repositories of different configs into their respective directories with thier names similar to thier configs.</samp>
 >
-><samp> for example, if you use want to use NvChad on daily basis then clone it's repository into default directory `~/.config/nvim` and if you want to use LunarVim also then clone it's repository into following directory `~/.config/LunarVim` </samp>
+><samp> for example, if you want to use NvChad on daily basis then clone it's repository into default directory `~/.config/nvim` and if you want to use LunarVim also then clone it's repository into following directory `~/.config/LunarVim` </samp>
 
+#### 1. Update `./zshrc`
+<samp>Adding the following lines in your `./zshrc` file will create a `nvims` command that can be used for accessing different configs. It shows the prompt with different available configuration. If you do not select any configuration it returns **nothing selected**. </samp>
 
-
-
+<img src="assets/prompt.jpg">
