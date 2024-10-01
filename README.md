@@ -16,7 +16,7 @@
     event = "VimEnter",
     opts = function(_, opts)
       local logo = [[ 
-              -- Your cutom logo 
+              -- Your custom logo 
       ]]
       logo = string.rep("\n", 8) .. logo .. "\n\n"
       opts.config.header = vim.split(logo, "\n")
@@ -67,6 +67,9 @@
 ## Multiple configs
 <samp>If you want to use mulitple configs of Neovim and Vim such as AstroVim, LunarVim, NvChad and ofcourse LazyVim then follow the below steps. </samp>
 
+> **A note about cloning other configs**: <samp> Clone the repository of the config you are going to use the most in the default directory of Neovim `~/.config/nvim` and clone the other repository's of different configs into their respective directories with thier names similar to thier configs.</samp>
+>
+><samp> for example, if you use want to use NvChad on daily basis then clone it's repository into default directory `~/.config/nvim` and if you want to use LunarVim also then clone it's repository into following directory `~/.config/LunarVim` </samp>
 
 
 
