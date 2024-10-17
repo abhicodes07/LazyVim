@@ -25,7 +25,8 @@
 ```
 
 
-<img src = "assets/DashBoard.jpg">
+<img src = "assets/lazy.png">
+
 
 ## Plugins
     
